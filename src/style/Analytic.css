@@ -238,8 +238,9 @@
 .analysics>.graph>.ContentGraph{
     height: 205px;
     width: 438px;
-    background-color: #DDD;
     margin-left: 14px;
     margin-top: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
     background: url("https://assets.digitalocean.com/articles/alligator/angular/ng2-charts/chart-example.png");
 }
