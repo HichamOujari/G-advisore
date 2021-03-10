@@ -1,0 +1,103 @@
+.navBar{
+    position: absolute;
+    width: 1200px;
+    height: 72px;;
+    left: 240px;
+    top: 0px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background: #282443;
+    align-items: center;
+    border-left: 0.1px solid gray;
+}
+
+.navBar>.title{
+    width: 109px;
+    height: 27px;
+    margin-left:32px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.navBar>.icons{
+    margin-right: 32px;
+}
+
+.navBar>.icons>.error{
+    margin-right: 16px;
+    padding:3.5px;
+    background: linear-gradient(141.45deg, #5D5781 -8.5%, #4E4871 104.64%);
+    border-radius: 8px;
+}
+.navBar>.icons>.notification{
+    margin-right: 16px;
+    padding:3.5px;
+    background: linear-gradient(141.45deg, #5D5781 -8.5%, #4E4871 104.64%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.navBar>.icons>.notification:hover,.navBar>.icons>.error:hover,.navBar>.icons>.avatar:hover{
+    background: linear-gradient(141.45deg, #9b92cf -8.5%, #4E4871 104.64%);
+    cursor: pointer;
+}
+.navBar>.icons>.avatar{
+    padding:3.5px;
+    margin-right: 16px;
+    background: linear-gradient(141.45deg, #5D5781 -8.5%, #4E4871 104.64%);
+    border-radius: 8px;
+}
+.display-none{
+    display: none;
+}
+.navBar>.notify{
+    position: absolute;
+    width: 244px;
+    height: 262px;
+    left: 884px;
+    top: 72px;
+    z-index: 7;
+
+    background: #312C4E;
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.navBar>.notify>.icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 195px;
+    top: -10px;
+
+    background: #312C4E;
+    color: #312C4E;
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.2);
+    border-radius: 4px 0px;
+    transform: rotate(45deg);
+}
+.navBar>.notify>.content{
+    overflow-y: auto;
+    width: 220px;
+    height: 238px;
+    margin:12px;
+}
+
+.navBar>.notify>.content::-webkit-scrollbar-track{
+	border: 1px solid #3F395C;
+	background-color: #3F395C;
+}
+
+.navBar>.notify>.content::-webkit-scrollbar{
+	width: 1px;
+	background-color: #F5F5F5;
+}
+
+.navBar>.notify>.content::-webkit-scrollbar-thumb{
+	background-color: white;	
+}

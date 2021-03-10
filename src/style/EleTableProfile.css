@@ -1,0 +1,66 @@
+.EleTableProfile{
+    display: flex;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    padding-bottom: 12px;
+    margin-top: 12px;
+    color: #FFFFFF;
+    border-bottom:  1px solid rgba(49, 47, 83, 0.5);
+    box-sizing: border-box;
+}
+
+.EleTableProfile>.No{
+    width: 20px;
+}
+
+.EleTableProfile>.Name{
+    margin-left: 14px;
+    width: 230px;
+}
+.EleTableProfile>.Email{
+    margin-left: 10px;
+    width: 250px;
+}
+.EleTableProfile>.NumCard{
+    margin-left: 10px;
+    width: 70px;
+}
+.EleTableProfile>.Actions{
+    margin-left: 44px;
+}
+.EleTableProfile>.Actions>.icon1{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    background: #312C4E;
+    border-radius: 50%;
+}
+
+.EleTableProfile>.Actions>.icon2{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    background: #312C4E;
+    margin-left: 6px;
+    border-radius: 50%;
+}
+.EleTableProfile>.Actions>.icon3{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    background: #312C4E;
+    margin-left: 6px;
+    border-radius: 50%;
+}
+
+.EleTableProfile>.Actions>.icon:hover{
+    cursor: pointer;
+    background: #49436d;
+}
+
+

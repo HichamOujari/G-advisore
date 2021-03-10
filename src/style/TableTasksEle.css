@@ -1,0 +1,133 @@
+.OneTaskEle{
+    display: flex;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(49, 47, 83, 0.5);
+    box-sizing: border-box;
+    margin-top: 14px;
+}
+.OneTaskEle .no{
+    width: 11px;
+    height: 16px;
+    margin-left: 16px;
+}
+.OneTaskEle .sku{
+    width: 80px;
+    height: 16px;
+    margin-left: 21px;
+}
+.OneTaskEle .Country{
+    margin-left: 53px;
+    width: 75px;
+    height: 16px;
+}
+.OneTaskEle .Size{
+    margin-left: 65px;
+    width: 24px;
+
+}
+.OneTaskEle .PaymentMethod{
+    margin-left: 65px;
+    width: 64px;
+    height: 16px;
+    margin-right: 116px;
+}
+
+
+.OneTaskEle .MonitorDelay{
+    margin-left: 40px;
+    height: 16px;
+    color: #FF9A3D;
+}
+
+.OneTaskEle .ErrorDelay{
+    margin-left: 70px;
+    height: 16px;
+    margin-right: 60px;
+    color: #FF9A3D;
+}
+
+
+.OneTaskEle .Status{
+    display: flex;
+    align-items: center;
+    width: 34px;
+    height: 16px;
+}
+.OneTaskEle .Status .DotIcon{
+    width: 8px;
+    height: 8px;
+    color: #FF3E3E;
+    background: rgba(255, 62, 62, 0.2);
+    margin-right: 7px;
+}
+
+
+.OneTaskEle>.Actions{
+    display: flex;
+    align-items: center;
+    margin-left:55px;
+}
+.OneTaskEle>.Actions>.PLAY{
+    cursor: pointer;
+    margin-right: 2px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+}
+
+.OneTaskEle>.Actions>.PAUSE{
+    cursor: pointer;
+    margin-right: 2px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+    display: none;
+}
+
+.display-none{
+    display: none;
+}
+
+.OneTaskEle>.Actions>.EDITE{
+    cursor: pointer;
+    margin-right: 2px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+}
+.OneTaskEle>.Actions>.COPY{
+    cursor: pointer;
+    margin-right: 2px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+}
+.OneTaskEle>.Actions>.DELETE{
+    cursor: pointer;
+    margin-right: 2px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+}

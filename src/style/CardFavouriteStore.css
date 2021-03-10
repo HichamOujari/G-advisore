@@ -1,0 +1,167 @@
+.CardFavouriteStore{
+    width: 296px;
+    height: 142px;
+    background: #17142C;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.CardFavouriteStore .headerCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+    padding:14px;
+    padding-bottom: 0;
+}
+
+.CardFavouriteStore .headerCard .title{
+    width: 70px;
+    height: 27px;
+    font-family: Archivo Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
+.CardFavouriteStore .headerCard .doted{
+    height: 20px;
+    color : rgba(255, 255, 255, 0.4);
+}
+
+.CardFavouriteStore .link{
+    display: flex;
+    margin-top: 9px;
+    margin-left: 14px;
+    width: 112px;
+    height: 14px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.CardFavouriteStore .link .iconLink{
+    width: 12px;
+    height: 12px;
+}
+
+.CardFavouriteStore .link .contentLink{
+    width: 94px;
+    height: 14px;
+    margin-left: 6px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.CardFavouriteStore .bottomCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    border-top: 1px solid rgba(49, 47, 83, 0.5);
+    border-radius: 8px;
+    padding-top: 13px;
+    padding-left: 14px;
+}
+
+.CardFavouriteStore .bottomCard .leftCard{
+    width: 94px;
+    height: 37px;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.CardFavouriteStore .bottomCard .leftCard .icon{
+    color: #ffffff;
+    background-color: #27DAE1;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.CardFavouriteStore .bottomCard .leftCard .text{
+    width: 68px;
+    height: 37px;
+}
+
+.CardFavouriteStore .bottomCard .leftCard .text .title{
+    width: 68px;
+    height: 11px;
+    margin-left: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.CardFavouriteStore .bottomCard .leftCard .text .data{
+    width: 42px;
+    height: 22px;
+    margin-top: 4px;
+    margin-left: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.CardFavouriteStore .bottomCard .rightCard{
+    width: 94px;
+    height: 37px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 14px;
+}
+
+.CardFavouriteStore .bottomCard .rightCard .icon{
+    color: #ffffff;
+    background-color: #9800D2;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.CardFavouriteStore .bottomCard .rightCard .text{
+    width: 68px;
+    height: 37px;
+    margin-left: 10px;
+}
+
+.CardFavouriteStore .bottomCard .rightCard .text .title{
+    width: 68px;
+    height: 11px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.CardFavouriteStore .bottomCard .rightCard .text .data{
+    width: 42px;
+    height: 22px;
+    margin-top: 4px;
+    margin-left: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}

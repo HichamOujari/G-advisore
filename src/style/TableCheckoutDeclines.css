@@ -1,0 +1,164 @@
+.TableCheckoutDeclines{
+    width: 776px;
+    height: 379px;
+
+    margin-top: 20px;
+    background: #1F1B37;
+    border-radius: 8px;
+}
+
+.TableCheckoutDeclines .header{
+    width: 744px;
+    height: 16px;
+    padding-top: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.TableCheckoutDeclines .header .no{
+    width: 20px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.TableCheckoutDeclines .header .NamePro{
+    width: 88px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 12px;
+
+    color: #FFFFFF;
+}
+.TableCheckoutDeclines .header .ProfilName{
+    width: 98px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 118px;
+}
+.TableCheckoutDeclines .header .ProfilName .title{
+    width: 74px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+.TableCheckoutDeclines .header .ProfilName .icon{
+    width: 14px;
+    height: 15px;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
+.TableCheckoutDeclines .header .ProxyGroup{
+    width: 95px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+}
+.TableCheckoutDeclines .header .ProxyGroup .title{
+    width: 74px;
+    height: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+.TableCheckoutDeclines .header .ProxyGroup .icon{
+    width: 14px;
+    height: 15px;
+    margin-left: 2px;
+    color: #FFFFFF;
+}
+.TableCheckoutDeclines .header .DateCHeckOut{
+    width: 131px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+}
+.TableCheckoutDeclines .header .DateCHeckOut .title{
+    width: 104px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+.TableCheckoutDeclines .header .DateCHeckOut .icon{
+    width: 14px;
+    height: 15px;
+    margin-left: 2px;
+    color: #FFFFFF;
+}
+.TableCheckoutDeclines .header .Price{
+    width: 42px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 56px;
+}
+.TableCheckoutDeclines .header .Price .title{
+    width: 28px;
+    height: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.TableCheckoutDeclines .header .Price .icon{
+    width: 14px;
+    height: 15px;
+    margin-left: 2px;
+    color: #FFFFFF;
+}
+
+.TableCheckoutDeclines .Content{
+    width: 776px;
+    height: 314px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Content::-webkit-scrollbar-track{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+
+.Content::-webkit-scrollbar{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.Content::-webkit-scrollbar-thumb{
+	background-color: #2b264d;	
+}

@@ -1,0 +1,244 @@
+.analysics{
+    position: relative;
+    width: 476px;
+    height: 308px;
+    border-radius: 8px;
+    background: #1F1B37;
+    margin-right: 32px;
+}
+.analysics>.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.analysics>.header>.title{
+    width: 55px;
+    height: 19px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 14px;
+}
+.analysics>.header>.rightContent{
+    margin-left: 257px;
+    width: 130px;
+    height: 16px;
+    display: flex;
+    margin-top: 14px;
+    margin-right: 18px;
+    justify-content: space-between;
+}
+
+.analysics>.header>.rightContent>.frequence{
+    width: 54px;
+    height: 16px;
+    display: flex;
+    margin-right: 32px;
+    cursor: pointer;
+}
+.analysics>.header>.rightContent>.frequence>.title{
+    width: 40px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-right: 2px;
+}
+
+
+.analysics>.header>.rightContent>.listMode{
+    position: absolute;
+    width: 107px;
+    height: 96px;
+    top:36px;
+    left: 300px;
+    background: #312C4E;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+.analysics>.header>.rightContent>.listMode>.week{
+    width: 95px;
+    height: 16px;
+    padding-left: 12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.analysics>.header>.rightContent>.listMode>.month{
+    width: 95px;
+    height: 16px;
+    padding-left: 12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.analysics>.header>.rightContent>.listMode>.year{
+    width: 95px;
+    height: 16px;
+    padding-left: 12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.analysics>.header>.rightContent>.listMode>.week:hover{
+    background: #3B375A;
+    cursor: pointer;
+}
+.analysics>.header>.rightContent>.listMode>.month:hover{
+    background: #3B375A;
+    cursor: pointer;
+}
+.analysics>.header>.rightContent>.listMode>.year:hover{
+    background: #3B375A;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.analysics>.header>.rightContent>.frequence>.icon{
+    width: 20px;
+    height: 14.5px;
+    color: #FFFFFF;
+    border-radius: 0.8px;
+    margin-top: 1.5px;
+}
+
+.analysics>.header>.rightContent>.Store{
+    width: 44px;
+    height: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.analysics>.header>.rightContent>.Store>.title{
+    width: 30px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-right: 4px;
+}
+
+.analysics>.header>.rightContent>.Store>.icon{
+    width: 20px;
+    height: 14.5px;
+    color: #FFFFFF;
+    border-radius: 0.8px;
+    margin-top: 1.5px;
+    transform: rotate(-180deg);
+}
+
+.analysics>.graph{
+    height: 468px;
+    width: 100%;
+}
+.analysics>.graph>.header{
+    display: flex;
+    justify-content: space-between;
+}
+.analysics>.graph>.header>.left{
+    display: flex;
+    justify-content: space-between;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 14px;
+    color: #FFFFFF;
+}
+.analysics>.graph>.header>.left>.title{
+    width: 70px;
+    height: 14px;
+    opacity: 0.4;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+.analysics>.graph>.header>.left>.date{
+    width: auto;
+    height: 14px;
+    margin-top: 15px;
+}
+.analysics>.graph>.header>.left>.icon{
+    width: 9px;
+    height: 15px;
+    color: #FFFFFF;
+    border-radius: 0.5px;
+    margin-left: 3px;
+    margin-top: 15px;
+}
+.analysics>.graph>.header>.right{
+    display: flex;
+    width: 82px;
+    height: 16px;
+    margin-top: 14px;
+    margin-right: 18px;
+}
+.analysics>.graph>.header>.right>.Month{
+    width: 58px;
+    height: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+.analysics>.graph>.header>.right>.icon{
+    width: 12px;
+    height: 13.33px;
+    color: #FFFFFF;
+}
+
+.analysics>.graph>.ContentGraph{
+    height: 205px;
+    width: 438px;
+    background-color: #DDD;
+    margin-left: 14px;
+    margin-top: 15px;
+}

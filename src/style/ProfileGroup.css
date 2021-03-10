@@ -1,0 +1,86 @@
+.ProfileGroup{
+    position: absolute;
+    width: 360px;
+    height: 828px;
+    left: 1080px;
+    top: 72px;
+
+    background: #0E0D1F;
+}
+
+
+.ProfileGroup>.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.ProfileGroup>.header>.left{
+    width: 117px;
+    height: 22px;
+    margin-left: 32px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-right: 91px;
+    
+}
+.ProfileGroup>.header>.right{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 32px;
+    
+}
+
+.ProfileGroup>.header>.right>.title{
+    width: 78px;
+    height: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #27EDE2;
+}
+.ProfileGroup>.header>.right>.icon{
+    margin-left: 8px;
+    width: 12px;
+    height: 12px;
+
+    background: #27EDE2;
+    border-radius: 100px;
+}
+
+
+.ProfileGroup>.content{
+    height: 751px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 32px;
+}
+
+
+.ProfileGroup>.content::-webkit-scrollbar-track{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+
+.ProfileGroup>.content::-webkit-scrollbar{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.ProfileGroup>.content::-webkit-scrollbar-thumb{
+	background-color: #2b264d;	
+}

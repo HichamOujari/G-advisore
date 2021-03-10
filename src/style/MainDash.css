@@ -1,0 +1,242 @@
+
+*{
+    text-decoration: none;
+}
+.DashContent{
+    position: absolute;
+    top: 72px;
+    left: 240px;
+    height: 828px;
+    width: 840px;
+    background: #131226;
+    box-shadow: 40px 40px 120px rgba(0, 0, 0, 0.24);
+}
+
+.DashContent>.DashContentHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-top: 21px;
+    align-items: center;
+}
+
+.DashContent>.DashContentHeader>.title{
+    width: 146px;
+    height: 22px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.DashContent>.DashContentHeader>.shareBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 72px;
+    height: 24px;
+
+    background: #1F1B37;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.DashContent>.DashContentHeader>.shareBtn>.title{
+    margin: 3px 8px 4px 11px;
+    width: 33px;
+    height: 17px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.DashContent>.DashContentHeader>.shareBtn>.icon{
+    width: 10px;
+    height: 10px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.DashContent>.Graphs{
+    width: 776px;
+    height: 308px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.DashContent>.Graphs>.leftGraphs{
+    margin-right: 24px;
+}
+
+.DashContent>.Graphs>.leftGraphs>.checkout{
+    margin-bottom: 20px;
+}
+
+.DashContent>.Graphs>.leftGraphs>.declines{
+
+}
+
+.DashContent>.Graphs>.rightGraph{
+
+}
+
+.DashContent>.RecentCheckout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.DashContent>.RecentCheckout>.title{
+    width: 136px;
+    height: 22px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.DashContent>.RecentCheckout>.Checkout_declines{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 146px;
+    height: 23px;
+    margin-left: 179px;
+    margin-right: 155px;
+}
+
+.DashContent>.RecentCheckout>.Checkout_declines>.Checkout{
+    width: 59px;
+    height: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 39px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.DashContent>.RecentCheckout>.Checkout_declines>.Checkout>.border{
+    width: 32px;
+    height: 1px;
+    margin-left: calc(50% - 16px);
+    margin-top: 6px;
+    border-bottom: 0.01px solid #27DAE1;
+}
+
+.DashContent>.RecentCheckout>.Checkout_declines>.Declines{
+    width: 48px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.display{
+    display: none;
+}
+
+.notfocused{
+    opacity: 0.4;
+}
+
+.DashContent>.RecentCheckout>.Checkout_declines>.Declines>.border{
+    width: 32px;
+    height: 1px;
+    margin-left: calc(50% - 16px);
+    margin-top: 6px;
+    border-bottom: 0.01px solid #27DAE1;
+}
+
+.DashContent>.RecentCheckout>.other{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DashContent>.RecentCheckout>.other>.calendar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82px;
+    height: 16px;
+}
+
+.DashContent>.RecentCheckout>.other>.calendar>.date{
+    min-width: 58px;
+    height: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+
+.DashContent>.RecentCheckout>.other>.calendar>.icon{
+    width: 16px;
+    height: 16px;
+    color: #FFFFFF;
+    margin-right: 17px;
+}
+
+.DashContent>.RecentCheckout>.other>.Method{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 61px;
+    height: 16px;
+    margin-right: 32px;
+    margin-left: 17px;
+}
+
+.DashContent>.RecentCheckout>.other>.Method>.type{
+    width: 47px;
+    height: 16px;
+    margin-right: 6px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.DashContent>.RecentCheckout>.other>.Method>.icon{
+    width: 20px;
+    height: 18.5px;
+    color: #FFFFFF;
+    border-radius: 0.8px;
+}
+.DashContent>.table{
+    margin-left: 32px;
+}
+

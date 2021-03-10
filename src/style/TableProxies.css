@@ -1,0 +1,81 @@
+.TableProxies{
+    margin-top: 15px;
+    margin-right: 32px;
+    
+    width: 776px;
+    height: 655px;
+    
+    background: #1F1B37;
+    border-radius: 8px;
+}
+
+.TableProxies>.header{
+    height: 16px;
+    
+    padding-top: 17px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.TableProxies>.header>.No{
+    width: 20px;
+}
+
+.TableProxies>.header>.IP{
+    margin-left: 12px;
+}
+.TableProxies>.header>.Port{
+    margin-left: 130px;
+}
+.TableProxies>.header>.Username{
+    margin-left: 85px;
+}
+.TableProxies>.header>.Password{
+    margin-left: 83px;
+}
+.TableProxies>.header>.Status{
+    display: flex;
+    align-items: center;
+    margin-left: 71px;
+}
+.TableProxies>.header>.Status>.sous{
+    font-size: 8px;
+}
+.TableProxies>.header>.Actions{
+    margin-left: 74px;
+}
+
+.TableProxies>.body{
+    height: 582px;
+    margin-right: 16px;
+    margin-left: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.TableProxies>.body::-webkit-scrollbar-track{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+
+.TableProxies>.body::-webkit-scrollbar{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.TableProxies>.body::-webkit-scrollbar-thumb{
+	background-color: #2b264d;	
+}

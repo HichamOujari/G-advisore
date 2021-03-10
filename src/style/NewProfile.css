@@ -1,0 +1,540 @@
+.NewProfile{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 900px;
+    width: 1440px;
+    background: rgba(19, 18, 38, 0.8);
+    z-index: 10;
+}
+
+.NewProfile>.Content{
+    position: absolute;
+    width: 664px;
+    height: 593px;
+    left: 364px;
+    top: 130px;
+    padding:24px;
+    background: #282443;
+    border-radius: 8px;
+}
+
+.NewProfile>.Content>.header{
+    width: 664px;
+    height: 48px;
+    
+    background: #211D39;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:24px;
+}
+.NewProfile>.Content>.header>.title{
+    margin: auto;
+    margin-left: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    letter-spacing: 0.12em;
+    
+    color: #FFFFFF;
+}
+.NewProfile>.Content>.header>.Etaps{
+    display: flex;
+    margin-right: 14px;
+    margin-left: 256px;
+    margin-top: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    
+    
+    color: #FFFFFF;
+}
+.NewProfile>.Content>.header>.Etaps>.first{
+    margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.NewProfile>.Content>.header>.Etaps>.first>.title{
+    margin-bottom: 5px;
+}
+.NewProfile>.Content>.header>.Etaps>.first>.icon{
+    width: 8px;
+    height: 8px;
+    padding: 4px;
+    margin-bottom: -8px;
+    background: #282443;
+    border-radius: 100px;
+    color: #FF3D96;
+
+}
+.NewProfile>.Content>.header>.Etaps>.second{
+    margin-right: 28px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.NewProfile>.Content>.header>.Etaps>.third{
+    color: rgba(255, 255, 255, 0.4);
+}
+.NewProfile>.Content>.body{
+    
+}
+.NewProfile>.Content>.body>.ProfileName{
+    width: 664px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.NewProfile>.Content>.body>.ProfileName>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+.NewProfile>.Content>.body>.ProfileName>.InputProfileName{
+    width: 644px;
+    height: 38px;
+    margin-left: 8px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+.NewProfile>.Content>.body>.Email_Phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.NewProfile>.Content>.body>.Email_Phone>.Email{
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 308px;
+    height: 48px;
+}
+.NewProfile>.Content>.body>.Email_Phone>.Email>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+.NewProfile>.Content>.body>.Email_Phone>.Email>.InputEmail{
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+.NewProfile>.Content>.body>.Email_Phone>.phone{
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 308px;
+    height: 48px;
+    margin-left: 24px;
+}
+
+.NewProfile>.Content>.body>.Email_Phone>.phone>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+
+.NewProfile>.Content>.body>.Email_Phone>.phone>.InputPhone{
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+.NewProfile>.Content>.body>.Card_HoldName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.NewProfile>.Content>.body>.Card_HoldName>.Card{
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 308px;
+    height: 48px;
+}
+.NewProfile>.Content>.body>.Card_HoldName>.Card>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+.NewProfile>.Content>.body>.Card_HoldName>.Card>.InputCard{
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+.NewProfile>.Content>.body>.Card_HoldName>.HolderName{
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 308px;
+    height: 48px;   
+}
+.NewProfile>.Content>.body>.Card_HoldName>.HolderName>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+.NewProfile>.Content>.body>.Card_HoldName>.HolderName>.InputHolderName{
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+
+.NewProfile>.Content>.body>.ExpiryMonth_Year{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.NewProfile>.Content>.body>.ExpiryMonth_Year>.Month{
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 308px;
+    height: 48px;
+}
+.NewProfile>.Content>.body>.ExpiryMonth_Year>.Month>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+.NewProfile>.Content>.body>.ExpiryMonth_Year>.Month>.SelectMonth{
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+
+.NewProfile>.Content>.body>.ExpiryMonth_Year>.Year{
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 308px;
+    height: 48px;
+}
+.NewProfile>.Content>.body>.ExpiryMonth_Year>.Year>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+.NewProfile>.Content>.body>.ExpiryMonth_Year>.Year>.SelectYear{
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+
+.NewProfile>.Content>.body>.cvv_type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.NewProfile>.Content>.body>.cvv_type>.cvv{
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 308px;
+    height: 48px;
+}
+.NewProfile>.Content>.body>.cvv_type>.cvv>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+.NewProfile>.Content>.body>.cvv_type>.cvv>.inputCVV{
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+.NewProfile>.Content>.body>.cvv_type>.type{
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 308px;
+    height: 48px;
+}
+.NewProfile>.Content>.body>.cvv_type>.type>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    margin-left: 10px;
+    color: #27E6E2;
+}
+.NewProfile>.Content>.body>.cvv_type>.type>.SelectType{
+    width: 290px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: -2px;
+    background: #282443;
+    border: 1px solid #282443;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+
+.NewProfile>.Content>.body>.checks{
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.NewProfile>.Content>.body>.checks>.left{
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 145px;
+    margin-left: 20px;
+}
+.NewProfile>.Content>.body>.checks>.left>.InputLeft{
+    color: black;
+    width: 16px;
+    height: 16px;
+    
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.NewProfile>.Content>.body>.checks>.left>.title{
+    width: 181px;
+    height: 22px;
+    margin-left: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+.NewProfile>.Content>.body>.checks>.right{
+    display: flex;
+    align-items: center;
+}
+.NewProfile>.Content>.body>.checks>.right>.InputRight{
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    background: white;
+    color: black;
+}
+.NewProfile>.Content>.body>.checks>.right>.title{
+    width: 188px;
+    height: 22px;
+    margin-left: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+
+.NewProfile>.Content>.body>.Btns{
+    margin-top: 45px;
+}
+
+.NewProfile>.Content>.body>.Btns>.cancel{
+    width: 160px;
+    height: 48px;
+    background: #393652;
+    border-radius: 100px;
+    border: 1px solid #393652;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-left: 314px;
+    margin-right: 24px;
+    cursor: pointer;
+    letter-spacing: 0.12em;
+    
+    color: #FFFFFF;
+}
+
+.NewProfile>.Content>.body>.Btns>.NEXT{
+    width: 160px;
+    height: 48px;
+    background: linear-gradient(124.24deg, #27FFE3 0%, #27DAE1 100%);
+    border-radius: 100px;
+    border: 1px solid #27FFE3;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 140%;
+    /* or 22px */
+    
+    letter-spacing: 0.12em;
+    
+    color: #FFFFFF;
+}

@@ -1,0 +1,101 @@
+.EleTableProxies{
+    display: flex;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(49, 47, 83, 0.5);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.EleTableProxies>.no{
+    width: 20px;
+}
+.EleTableProxies>.IP{
+    margin-left: 12px;
+    width: 100px;
+}
+.EleTableProxies>.port{
+    margin-left: 40px;
+    width: 40px;
+}
+.EleTableProxies>.username{
+    margin-left: 70px;
+    width: 100px;
+}
+.EleTableProxies>.password{
+    margin-left: 42px;
+    width: 100px;
+}
+.EleTableProxies>.status{
+    width: 60px;
+    margin-left: 28px;
+    color: #FF9A3D;
+}
+
+.EleTableProxies>.status>.test{
+    align-items: center;
+}
+
+.EleTableProxies>.status>.test>.icon{
+    animation: 1s Rotation infinite;
+}
+
+@keyframes Rotation{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.EleTableProxies>.status>.test>.title{
+    margin-left: 4px;
+    color: #27DAE1;
+}
+
+.EleTableProxies>.Actions{
+    height: 20px;
+    margin-left: 66px;
+    display: flex;
+    align-items: center;
+}
+
+.display-none{
+    display: none;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.EleTableProxies>.Actions>.icon1{
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    padding:5px;
+    background: #312C4E;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.EleTableProxies>.Actions>.icon2{
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    padding:5px;
+    background: #312C4E;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.EleTableProxies>.Actions>.icon2:hover,.EleTableProxies>.Actions>.icon1:hover{
+    background: #4a446b;
+}

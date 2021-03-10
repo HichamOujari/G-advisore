@@ -1,0 +1,257 @@
+.CardcheckAnalyse{
+    position: relative;
+    width: 280px;
+    height: 144px;
+
+    background: #1F1B37;
+    border-radius: 8px;
+}
+
+.CardcheckAnalyse>.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.CardcheckAnalyse>.header>.title{
+    min-width: 120px;
+    height: 19px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-right: 73px;
+}
+.CardcheckAnalyse>.header>.mode{
+    width: auto;
+    height: 16px;
+    display: flex;
+    margin-right: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+
+.CardcheckAnalyse>.header>.mode>.title{
+    width: 41px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.CardcheckAnalyse>.header>.mode>.icon{
+    width: 20px;
+    height: 16px;
+
+    color: #FFFFFF;
+    border-radius: 0.5px;
+}
+
+.CardcheckAnalyse>.header>.listMode{
+    position: absolute;
+    width: 107px;
+    height: 128px;
+    top:36px;
+    left: 160px;
+    background: #312C4E;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.display-none{
+    display: none;
+}
+
+.CardcheckAnalyse>.header>.listMode>.week{
+    width: 95px;
+    height: 16px;
+    padding-left: 12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.CardcheckAnalyse>.header>.listMode>.month{
+    width: 95px;
+    height: 16px;
+    padding-left: 12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.CardcheckAnalyse>.header>.listMode>.year{
+    width: 95px;
+    height: 16px;
+    padding-left: 12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.CardcheckAnalyse>.header>.listMode>.anytime{
+    width: 95px;
+    height: 16px;
+    padding-left: 12px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.CardcheckAnalyse>.header>.listMode>.week:hover{
+    background: #3B375A;
+    cursor: pointer;
+}
+.CardcheckAnalyse>.header>.listMode>.month:hover{
+    background: #3B375A;
+    cursor: pointer;
+}
+.CardcheckAnalyse>.header>.listMode>.year:hover{
+    background: #3B375A;
+    cursor: pointer;
+}
+.CardcheckAnalyse>.header>.listMode>.anytime:hover{
+    background: #3B375A;
+    cursor: pointer;
+
+}
+
+
+
+
+.CardcheckAnalyse>.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardcheckAnalyse>.content>.graph{
+    width: 72px;
+    height: 72px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.CardcheckAnalyse>.content>.descrip{
+    margin-bottom: 26px;
+    margin-right: 24px;
+    margin-top: 26px;
+    margin-left: 24px;
+}
+
+.CardcheckAnalyse>.content>.descrip>.first{
+    display: flex;
+    justify-content: space-between;
+}
+.CardcheckAnalyse>.content>.descrip>.first>.title{
+    width: 61px;
+    height: 16px;
+    display: flex;
+    margin-right: 53px;
+    align-items: center;
+}
+.CardcheckAnalyse>.content>.descrip>.first>.title>.icon{
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+.CardcheckAnalyse>.content>.descrip>.first>.title>.soustitle{
+    width: 43px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.CardcheckAnalyse>.content>.descrip>.first>.value{
+    width: 38px;
+    height: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.CardcheckAnalyse>.content>.descrip>.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.CardcheckAnalyse>.content>.descrip>.second>.title{
+    width: 61px;
+    height: 16px;
+    display: flex;
+    margin-right: 53px;
+    align-items: center;
+}
+.CardcheckAnalyse>.content>.descrip>.second>.title>.icon{
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    color: rgba(39, 218, 225, 1);
+    margin-right: 8px;
+}
+.CardcheckAnalyse>.content>.descrip>.second>.title>.soustitle{
+    width: 43px;
+    height: 16px;
+    margin-top: 2px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.CardcheckAnalyse>.content>.descrip>.second>.value{
+    width: 38px;
+    height: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: right;
+
+    color: #FFFFFF;
+}

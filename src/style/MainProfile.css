@@ -1,0 +1,299 @@
+.MainProfile{
+    position: absolute;
+    width: 776px;
+    height: 764px;
+    left: 240px;
+    top: 72px;
+    padding:32px;
+    background: #131226;
+    box-shadow: 40px 40px 120px rgba(0, 0, 0, 0.24);
+}
+
+.MainProfile>.header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #282443;
+}
+
+.MainProfile>.header>.left{
+    width: 86px;
+    height: 22px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.MainProfile>.header>.sous{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    height: 16px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: rgba(255, 255, 255, 0.4);
+}
+.MainProfile>.header>.sous>.title{
+    
+}
+
+.MainProfile>.header>.sous>.value{
+    margin-left: 4px;
+    color: white;
+}
+
+.MainProfile>.sousHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.MainProfile>.sousHeader>.left{
+    display: flex;
+    align-items: center;
+}
+
+.MainProfile>.sousHeader>.left>.first{
+    display: flex;
+    align-items: center;
+    width: 83px;
+    height: 28px;
+    
+    background: #1F1B37;
+    border-radius: 100px;
+}
+
+.MainProfile>.sousHeader>.left>.first:hover{
+    background: #413c5f;
+    cursor: pointer;
+}
+
+.MainProfile>.sousHeader>.left>.first>.icon{
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    padding-left: 2px;
+    
+    background: #312C4E;
+    border-radius: 100px;
+    margin-left: 4px;
+}
+
+.MainProfile>.sousHeader>.left>.first>.title{
+    width: 39px;
+    height: 17px;
+    margin-left: 8px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #FFFFFF;
+}
+
+.MainProfile>.sousHeader>.left>.second{
+    display: flex;
+    align-items: center;
+    width: 83px;
+    height: 28px;
+    
+    background: #1F1B37;
+    border-radius: 100px;
+    margin-left: 16px;
+}
+
+.MainProfile>.sousHeader>.left>.second:hover{
+    background: #413c5f;
+    cursor: pointer;
+}
+
+.MainProfile>.sousHeader>.left>.second>.icon{
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    padding-left: 2px;
+    
+    background: #312C4E;
+    border-radius: 100px;
+    margin-left: 4px;
+}
+
+.MainProfile>.sousHeader>.left>.second>.title{
+    width: 39px;
+    height: 17px;
+    margin-left: 8px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #FFFFFF;
+}
+
+.MainProfile>.sousHeader>.right{
+    display: flex;
+    align-items: center;
+}
+
+.MainProfile>.sousHeader>.right>.first{
+    display: flex;
+    align-items: center;
+    width: 83px;
+    height: 28px;
+    
+    background: #1F1B37;
+    border-radius: 100px;
+}
+
+.MainProfile>.sousHeader>.right>.first:hover{
+    background: #413c5f;
+    cursor: pointer;
+}
+
+.MainProfile>.sousHeader>.right>.first>.icon{
+    width: 15px;
+    height: 15px;
+    color: white;
+    padding: 4px;
+    padding-left: 2px;
+    
+    background: #312C4E;
+    border-radius: 100px;
+    margin-left: 4px;
+}
+
+.MainProfile>.sousHeader>.right>.first>.title{
+    width: 39px;
+    height: 17px;
+    margin-left: 8px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #FFFFFF;
+}
+
+.MainProfile>.sousHeader>.right>.second{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    color: white;
+    /* Linear */
+    margin-left: 16px;
+    background: linear-gradient(124.24deg, #27FFE3 0%, #27DAE1 100%);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+.MainProfile>.Table{
+    margin-top: 15px;
+    width: 744px;
+    height: 653px;
+    
+    background: #1F1B37;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.MainProfile>.Table>.header{
+    display: flex;
+    align-items: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+}
+
+.MainProfile>.Table>.header>.No{
+    width: 20px;
+}
+
+.MainProfile>.Table>.header>.Name{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+.MainProfile>.Table>.header>.Name>.title{
+    
+}
+.MainProfile>.Table>.header>.Name>.icon{
+    margin-left: 4px;
+}
+
+.MainProfile>.Table>.header>.Email{
+    display: flex;
+    align-items: center;
+    margin-left: 178px;
+}
+
+
+.MainProfile>.Table>.header>.Email>.title{
+    width: 87px;
+}
+
+.MainProfile>.Table>.header>.Email>.icon{
+    margin-left: 4px;
+}
+
+
+.MainProfile>.Table>.header>.NumCard{
+    width: 80px;
+    
+    margin-left: 143px;
+}
+.MainProfile>.Table>.header>.Actions{
+    margin-left: 90px;
+}
+.MainProfile>.Table>.body{
+    margin-top: 1px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 630px;
+}
+.display-none{
+    display: none;
+}
+
+.MainProfile>.Table>.body::-webkit-scrollbar-track{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+
+.MainProfile>.Table>.body::-webkit-scrollbar{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.MainProfile>.Table>.body::-webkit-scrollbar-thumb{
+	background-color: #2b264d;	
+}

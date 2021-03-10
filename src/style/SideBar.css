@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+}
+
+.SideBar{
+    position: relative;
+    width: 240px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    background: #1F1B37;
+    overflow: hidden;
+}
+
+.logoVersion{
+    position: absolute;
+    width: 240px;
+    height: 72px;;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #282443;
+}
+
+.logo{
+    position: absolute;
+    width: 40px;
+    height: 31.78px;
+    left: 20px;
+}
+
+.version{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    left: 175px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+.SideBarEles{
+    width: 240px;
+    margin-left: 0px;
+    padding-top: 72px;
+    line-height: 64px;
+}
+.LisenceKeyCard{
+    position: absolute;
+    width: 208px;
+    height: 189px;
+    left: 16px;
+    bottom: 80px;
+    background: linear-gradient(130.09deg, #27FFE3 -64.67%, #27DAE1 100%);
+    border-radius: 12px;
+}
+
+.LisenceKeyCard .title{
+    width: 68px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.LisenceKeyCard .title1{
+    margin-top: 15px;
+}
+
+.LisenceKeyCard .input{
+    width: 184px;
+    margin-left: 13px;
+    margin-top: 10px;
+    background: #2CDAD0;
+    border-radius: 8px;
+    display: flex;
+}
+
+.LisenceKeyCard input{
+    width: 135px;
+    height: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.8px;
+    line-height: 14px;
+    background: #2CDAD0;
+    letter-spacing: 0.14em;
+    border: 1px solid #2CDAD0;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.LisenceKeyCard input::placeholder{
+    color: white;
+}
+
+.LisenceKeyCard .eye{
+    width: 18px;
+    color: white;
+    padding: 7px;
+    height: 18px;
+    padding: 8px;
+    margin-left: 3px;
+    background: #20CDC3;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.LisenceKeyCard .title2{
+    margin-top: 15px;
+}
+
+.LisenceKeyCard .date{
+    width: 96px;
+    height: 22px;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.LisenceKeyCard .Renewal{
+    width: 184px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 12px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.LisenceKeyCard .Renewal .title{
+    width: 52px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #27E6E2;
+    
+}
+
+.LisenceKeyCard .Renewal .arrow{
+    width: 12px;
+    height: 12px;
+    padding: 2.5px;
+    color: #27E6E2;
+    margin-right: 10px;
+}
+
+.SideBar .Undind{
+    position: absolute;
+    width: 208px;
+    height: 40px;
+    left: 16px;
+    bottom: 10px;
+    background: linear-gradient(99.51deg, #3D375E -4.78%, #2A2647 120.01%);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SideBar .Undind:hover{
+    background: linear-gradient(99.51deg, #5e5980 -4.78%, #2A2647 120.01%);
+}
+
+.SideBar .Undind .cloud{
+    width: 16px;
+    height: 16px;
+    color: white;
+    margin-right: 10px;
+}
+
+
+.SideBar .Undind .title{
+    width: 49px;
+    height: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

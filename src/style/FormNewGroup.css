@@ -1,0 +1,807 @@
+.FormNewGroup{
+    position: absolute;
+    width: 760px;
+    height: 1097px;
+    background: #282443;
+    border-radius: 8px;
+}
+
+.FormNewGroup .header{
+    width: 712px;
+    height: 48px;
+    margin-top: 26px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    background: #211D39;
+    border-radius: 8px;
+}
+
+.FormNewGroup .header>.title{
+    width: 195px;
+    height: 22px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    
+    letter-spacing: 0.12em;
+    
+    color: #FFFFFF;
+
+    margin-left: 16px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.FormNewGroup .header>.icon{
+    width: 27px;
+    height: 26px;
+    cursor: pointer;
+    padding: 5px;
+    color: #FF5252;
+    background: #282443;
+    border-radius: 6px;
+    margin: auto;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.FormNewGroup .header>.icon:hover{
+    background: #403c5c;
+}
+
+.FormNewGroup .DivGroupName{
+    width: 664px;
+    height: 59px;
+    margin-top: 16px;
+    margin-right: 24px;
+    margin-left: 24px;
+    background: #211D39;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.FormNewGroup .DivGroupName>.first{
+    width: 664px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.FormNewGroup .DivGroupName>.first>.title{
+    width: 73px;
+    height: 17px;
+    margin-left: 9px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    color: #27E6E2;
+}
+
+.FormNewGroup .DivGroupName>.first>.GroupName{
+    width: 634px;
+    height: 22px;
+
+    background: #211D39;
+    border: 1px solid #211D39;
+    padding-left: 13px;
+    padding-top: 5px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.FormNewGroup .DivGlobalTask{
+    width: 712px;
+    height: 288px;
+    
+    background: #211D39;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+
+    margin-top: 16px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.FormNewGroup .DivGlobalTask>.title{
+    width: 93px;
+    height: 22px;
+    
+    padding-top: 20px;
+    margin-left: 24px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+
+.FormNewGroup .DivGlobalTask>.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.FormNewGroup .DivGlobalTask>.first>.FieldStore{
+    width: 320px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    margin-left: 24px;
+    margin-top: 20px;
+    border-radius: 8px;
+}  
+
+.FormNewGroup .DivGlobalTask>.first>.FieldStore>.title{
+    width: 30px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DivGlobalTask>.first>.FieldStore>.SELECTStore{
+    width: 300px;
+    height: 28px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 4px;
+    margin-left: 12px;
+    
+    
+    color: #FFFFFF;
+
+}
+.FormNewGroup .DivGlobalTask>.first>.ProductSKU{
+    width: 320px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    margin-left: 24px;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.FormNewGroup .DivGlobalTask>.first>.ProductSKU>.title{
+    width: 75px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DivGlobalTask>.first>.ProductSKU>.SKUinput{
+    width: 280px;
+    height: 28px;
+
+    background: #211D39;
+    border: 1px solid #211D39;
+    padding-left: 13px;
+    padding-top: 2px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+.FormNewGroup .DivGlobalTask>.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.FormNewGroup .DivGlobalTask>.second>.DIVCountry{
+    width: 320px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.FormNewGroup .DivGlobalTask>.second>.DIVCountry>.title{
+    width: 50px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DivGlobalTask>.second>.DIVCountry>.SelectCountry{
+    width: 300px;
+    height: 28px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 4px;
+    margin-left: 16px;
+    
+    
+    color: #FFFFFF;
+}
+
+
+.FormNewGroup .DivGlobalTask>.second>.DIVProfileGroup{
+    width: 350px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 5px;
+    margin-left: 33px;
+}
+.FormNewGroup .DivGlobalTask>.second>.DIVProfileGroup>.title{
+    width: 80px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DivGlobalTask>.second>.DIVProfileGroup>.SelectProfile{
+    width: 300px;
+    height: 28px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 4px;
+    margin-left: 12px;
+    
+    
+    color: #FFFFFF;
+}
+
+.FormNewGroup .DivGlobalTask>.third{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 652px;
+    height: 48px;
+    margin-top: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.FormNewGroup .DivGlobalTask>.third>.title{
+    width: 86px;
+    height: 22px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+
+.FormNewGroup .DivGlobalTask>.third>div>.progressBar{
+    width: 193px;
+    height: 4px;
+    border-radius: 8px;
+    -webkit-appearance: none;
+    margin: -1px;
+    padding: 0;
+}
+
+.FormNewGroup .DivGlobalTask>.third>div>.progressBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 20px;
+    cursor: pointer;
+    border: 1.5px solid #fff;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: #27E6E2;
+}
+
+
+.FormNewGroup .DivGlobalTask>.third>div{
+    margin-top: 22px;
+}
+
+.FormNewGroup .DivGlobalTask>.third>div>div{
+    position: relative;
+    height: 20px;
+    margin-top: 10px;
+    width: 386px;
+}
+.FormNewGroup .DivGlobalTask>.third>div>div>span{
+    height: 17px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    width: 29px;
+    overflow: hidden;
+    padding: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3C375A;
+    border-radius: 4px;
+}
+
+.FormNewGroup .DivGlobalTask>.third>div>div>#EchoRange1{
+    position: absolute;
+    left: 80px;
+}
+.FormNewGroup .DivGlobalTask>.third>div>div>#EchoRange2{
+    position: absolute;
+    left: 270px;
+}
+
+
+.FormNewGroup .DivGlobalTask>.third>.EndTitle{
+    width: 97px;
+    height: 22px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+
+
+.FormNewGroup .DIVRegularTask{
+    width: 712px;
+    height: 208px;
+    background: #211D39;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-left: 24px;
+    padding-top: 20px;
+}
+
+.FormNewGroup .DIVRegularTask>.title{
+    margin-right: 24px;
+    margin-left: 24px;
+    width: 103px;
+    height: 22px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.FormNewGroup .DIVRegularTask>.first{
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FormNewGroup .DIVRegularTask>.first>.AProxiesGroup{
+    width: 320px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.FormNewGroup .DIVRegularTask>.first>.AProxiesGroup>.title{
+    width: 80px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DIVRegularTask>.first>.AProxiesGroup>.SelectProxiesGroup{
+    width: 300px;
+    height: 28px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 4px;
+    margin-left: 15px;
+    
+    
+    color: #FFFFFF;
+}
+
+.FormNewGroup .DIVRegularTask>.first>.PaymentMethod{
+    width: 320px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 5px;
+    margin-left: 35px;
+}
+.FormNewGroup .DIVRegularTask>.first>.PaymentMethod>.title{
+    width: 100px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DIVRegularTask>.first>.PaymentMethod>.SelectPaymentMethod{
+    width: 285px;
+    height: 28px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 4px;
+    margin-left: 15px;
+    
+    
+    color: #FFFFFF;
+}
+
+.FormNewGroup .DIVRegularTask>.QuantityTask{
+    width: 664px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    margin-left: 24px;
+    margin-top: 24px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.FormNewGroup .DIVRegularTask>.QuantityTask>.title{
+    width: 60px;
+    height: 17px;
+    padding-left: 4px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #27E6E2;
+}
+
+.FormNewGroup .DIVRegularTask>.QuantityTask>.inputQuantityTask{
+    width: 644px;
+    height: 32px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    margin-left: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    
+    color: rgba(255, 255, 255, 0.4);
+}
+.FormNewGroup .DIVMonitorTask{
+    width: 664px;
+    height: 212px;
+    
+    margin-left: 24px;
+    margin-top: 16px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #211D39;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    
+}
+
+.FormNewGroup .DIVMonitorTask>.title{
+    width: 106px;
+    height: 22px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    
+    color: #FFFFFF;
+}
+.FormNewGroup .DIVMonitorTask>.first{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.FormNewGroup .DIVMonitorTask>.first>.AProxiesGroup{
+    width: 320px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+.FormNewGroup .DIVMonitorTask>.first>.AProxiesGroup>.title{
+    width: 100px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DIVMonitorTask>.first>.AProxiesGroup>.SelectProxiesGroup{
+    width: 285px;
+    height: 28px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 4px;
+    margin-left: 15px;
+    
+    
+    color: #FFFFFF;
+}
+
+.FormNewGroup .DIVMonitorTask>.first>.MonitorDelay{
+    width: 132px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.FormNewGroup .DIVMonitorTask>.first>.MonitorDelay>.title{
+    width: 86px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DIVMonitorTask>.first>.MonitorDelay>.inputMonitorDelay{
+    width: 132px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.FormNewGroup .DIVMonitorTask>.first>.ErrorDelay{
+    width: 132px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 16px;
+}
+.FormNewGroup .DIVMonitorTask>.first>.ErrorDelay>.title{
+    width: 70px;
+    height: 17px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DIVMonitorTask>.first>.ErrorDelay>.inputErrorDelay{
+    width: 132px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.FormNewGroup .DIVMonitorTask>.QuantityTask{
+    width: 664px;
+    height: 59px;
+    border: 1px solid #3C375A;
+    box-sizing: border-box;
+    margin-top: 24px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.FormNewGroup .DIVMonitorTask>.QuantityTask>.title{
+    width: 60px;
+    height: 17px;
+    padding-left: 4px;
+
+    margin-left: 9px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #27E6E2;
+}
+.FormNewGroup .DIVMonitorTask>.QuantityTask>.inputQuantityTask{
+    width: 644px;
+    height: 32px;
+    background: #211D39;
+    border: 1px solid #211D39;
+    margin-left: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.FormNewGroup .DIVsubmit{
+    width: 712px;
+    margin-left: 279px;
+}
+
+.FormNewGroup .DIVsubmit>.SubmitBtn{
+    Width: 160px;
+    height: 48px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    margin-top: 24px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    
+    /* Linear */
+    border: 1px solid #27FFE3;
+    background: linear-gradient(124.24deg, #27FFE3 0%, #27DAE1 100%);
+    border-radius: 100px;
+}
+

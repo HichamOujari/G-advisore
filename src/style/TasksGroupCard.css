@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Archivo+Black&family=Archivo+Narrow&display=swap');
+
+.TasksGroupCard{
+    width: 296px;
+
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+    transition: 1s;
+    transform-origin: background;
+}
+
+.backWithoutFocus{
+    background: #17142C;
+}
+.backWithFocus{
+    background: linear-gradient(99.51deg, #3D375E -4.78%, #2A2647 120.01%);
+}
+
+.TasksGroupCard>.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  1px solid #4A486D;
+    box-sizing: border-box;
+}
+.TasksGroupCard>.header>.title{
+    width: 100px;
+    height: 22px;
+
+    margin-left: 14px;
+    margin-top: 9px;
+
+    font-family: Archivo Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+.TasksGroupCard>.header>.icons{
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.TasksGroupCard>.header>.icons>.icon>.icon1{
+    width: 13px;
+    height: 13px;
+    padding: 6px;
+    background: #4C466D;
+    border-radius: 50%;
+    align-items: center;
+    color:white;
+    margin-right: 8px;
+}
+.TasksGroupCard>.header>.icons>.icon>.icon2{
+    width: 13px;
+    height: 13px;
+    padding: 6px;
+    background: #4C466D;
+    border-radius: 50%;
+    align-items: center;
+    color:white;
+    margin-right: 8px;
+}
+.TasksGroupCard>.header>.icons>.icon>.icon3{
+    width: 13px;
+    height: 13px;
+    padding: 6px;
+    background: #4C466D;
+    border-radius: 50%;
+    align-items: center;
+    color:white;
+    margin-right: 15px;
+}
+
+.TasksGroupCard>.header>.icons>.icon>.icon3:hover,.TasksGroupCard>.header>.icons>.icon>.icon1:hover,.TasksGroupCard>.header>.icons>.icon>.icon2:hover{
+    background: #67668d;
+    cursor: pointer;
+}
+
+.TasksGroupCard>.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 14px;
+}
+
+.TasksGroupCard>.body>.left>.title{
+    width: 140px;
+    height: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+.TasksGroupCard>.body>.left>.data{
+    width: 58px;
+    height: 16px;
+    margin-top: 2px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
+
+.TasksGroupCard>.body>.right>.icon{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+.TasksGroupCard>.body>.right>.icon:hover{
+    background: #56557a;
+}
+
+.TasksGroupCard>.cached{
+    justify-content: space-evenly;
+    align-items: center;
+    width: 268px;
+    height: 63px;
+    margin: 14px;
+    margin-top: 0;
+    background: #262140;
+    border-radius: 6px;
+}
+
+.display-none{
+    display: none;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.TasksGroupCard>.cached>.ProxiesGroup>.title{
+    width: 67px;
+    height: 14px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.4;
+}
+.TasksGroupCard>.cached>.ProxiesGroup>.data{
+
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    margin-top: 8px;
+    
+    color: #FFFFFF;
+}
+
+.TasksGroupCard>.cached>.ProfileGroup>.title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.4;
+}
+.TasksGroupCard>.cached>.ProfileGroup>.data{
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    margin-top: 8px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}

@@ -1,0 +1,130 @@
+.ProxiesGroupCard{
+    width: 268;
+    height: 105;
+    
+    padding-top: 22px;
+    background: #17142C;
+    border-radius: 8px;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    transition: 1s;
+    transform-origin: background;
+}
+
+.ProxiesGroupCard:hover{
+    background: linear-gradient(99.51deg, #3D375E -4.78%, #2A2647 120.01%);
+}
+
+.ProxiesGroupCard .top{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  1px solid #4A486D;
+    box-sizing: border-box;
+    padding-bottom: 18px;
+}
+
+.ProxiesGroupCard .top>.left{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.ProxiesGroupCard .top>.left>.title{
+    font-family: Archivo Narrow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+}
+.ProxiesGroupCard .top>.left>.sous{
+    font-family: Open Sans;
+    margin-top: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+    
+    opacity: 0.4;
+}
+
+.ProxiesGroupCard .top>.right{
+    display: flex;
+    justify-content: space-between;
+    width: 76px;
+    height: 20px;
+    margin-right: 24px;
+}
+
+
+.ProxiesGroupCard .top>.right>.icon{
+    width: 13px;
+    height: 13px;
+    padding: 5.5px;
+    background: #4C466D;
+    margin-right: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    margin-top: -10px;
+}
+
+
+.ProxiesGroupCard .top>.right>.icon:hover{
+    background: #736ba0;
+}
+
+.ProxiesGroupCard .bottom{
+    width: 268px;
+    height: 39px;
+    margin: 14px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F1B38;
+    border-radius: 6px;
+}
+
+.ProxiesGroupCard .bottom>.title{
+    width: 66px;
+    height: 14px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    margin: 13px;
+    
+    color: #FFFFFF;
+}
+
+.ProxiesGroupCard .bottom>.data{
+    display: flex;
+    justify-content: space-around;
+    align-self:center;
+    margin-right: 12px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ProxiesGroupCard .bottom>.data>.value{
+    margin-right: 4px;
+}

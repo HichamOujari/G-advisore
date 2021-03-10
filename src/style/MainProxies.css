@@ -1,0 +1,204 @@
+.MainProxies{
+    position: absolute;
+    width: 776px;
+    height: 764px;
+    left: 240px;
+    top: 72px;
+    padding:32px;
+    background: #131226;
+    box-shadow: 40px 40px 120px rgba(0, 0, 0, 0.24);
+}
+
+.MainProxies>.header{
+    width: 776px;
+    height: 39px;
+    border-bottom: 1px solid #282443;
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.MainProxies>.header>.title{
+    width: 79px;
+    height: 22px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+.MainProxies>.header>.then{
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+}
+.MainProxies>.header>.then>.title{
+    height: 16px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: rgba(255, 255, 255, 0.4);
+}
+.MainProxies>.header>.then>.data{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 8px;
+    color: #FFFFFF;
+}
+
+.MainProxies>.underHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.MainProxies>.underHeader>.left{
+    display: flex;
+    align-self: center;
+    width: 124px;
+    height: 26px;
+    padding: 4px;
+    background: #1F1B37;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.MainProxies>.underHeader>.left:hover{
+    background: #353050;
+}
+
+.MainProxies>.underHeader>.left>.icon{
+    width: 15px;
+    height: 15px;
+    padding:5px;
+    background: #312C4E;
+    border-radius: 100px;
+    color: white;
+}
+
+.MainProxies>.underHeader>.left>.title{
+    width: 83px;
+    height: 17px;
+    margin-top: 4px;
+    margin-left: 8px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #FFFFFF;
+}
+
+.MainProxies>.underHeader>.right{
+    display: flex;
+    align-self: center;
+}
+
+.MainProxies>.underHeader>.right>.TestALL{
+    display: flex;
+    align-self: center;
+    width: 85px;
+    height: 24px;
+    padding: 4px;
+    background: #1F1B37;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.MainProxies>.underHeader>.right>.TestALL:hover{
+    background: #353050;
+}
+
+.MainProxies>.underHeader>.right>.TestALL>.icon{
+    width: 15px;
+    height: 15px;
+    padding:5px;
+    background: #312C4E;
+    border-radius: 100px;
+    color: white;
+}
+.MainProxies>.underHeader>.right>.TestALL>.title{
+    width: 83px;
+    height: 17px;
+    margin-top: 4px;
+    margin-left: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #FFFFFF;
+}
+
+.MainProxies>.underHeader>.right>.DeleteAll{
+    display: flex;
+    align-self: center;
+    
+    height: 24px;
+    padding: 4px;
+    background: #1F1B37;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.MainProxies>.underHeader>.right>.DeleteAll:hover{
+    background: #383357;
+}
+
+.MainProxies>.underHeader>.right>.DeleteAll>.icon{
+    width: 15px;
+    height: 15px;
+    padding:5px;
+    background: #312C4E;
+    border-radius: 100px;
+    color: white;
+}
+.MainProxies>.underHeader>.right>.DeleteAll>.title{
+    
+    height: 17px;
+    margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    
+    
+    color: #FFFFFF;
+}
+
+.MainProxies>.underHeader>.right>.plus{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    padding: 6px;
+    color: white;
+    background: linear-gradient(124.24deg, #27FFE3 0%, #27DAE1 100%);
+    border-radius: 100px;
+    margin-left: 16px;
+}
