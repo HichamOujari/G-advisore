@@ -240,7 +240,7 @@
     width: 438px;
     margin-left: 14px;
     margin-top: 15px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background: url("https://assets.digitalocean.com/articles/alligator/angular/ng2-charts/chart-example.png");
+    background: url("../Assets/GRAPH.png");
 }
