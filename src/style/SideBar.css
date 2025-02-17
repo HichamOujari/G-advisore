@@ -6,7 +6,7 @@
 
 .SideBar{
     position: relative;
-    width: 240px;
+    width: 100vw;
     height: 900px;
     left: 0px;
     top: 0px;
@@ -18,7 +18,7 @@
 
 .logoVersion{
     position: absolute;
-    width: 240px;
+    width: 100vw;
     height: 72px;;
     left: 0px;
     top: 0px;
@@ -51,7 +51,7 @@
 
 
 .SideBarEles{
-    width: 240px;
+    width: 100vw;
     margin-left: 0px;
     padding-top: 72px;
     line-height: 64px;
